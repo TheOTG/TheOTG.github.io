@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<title>me</title>
 	</head>
 	<body>
-		<h1>Hello World!</h1>
-		<h2>About Me</h2>
-		<h2>Work</h2>
-		<h2>Contact</h2>
-		soon to be updated with more content
+
+		<div class="header">
+			<div class="container">
+				<img src="silh.png">
+			</div>
+			<ul class="nav">
+				<li class="navList"><a href="#about">About</a></li>
+                <!-- <li class="navList"><a href="www.google.com">What I Do</a></li> -->
+                <li class="navList"><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div class="center">
+			<a id="about">
+			<h2>About Me</h2>
+			<img src="Kenny.png" class="gue">
+			<p>My name is Kenny Anthony The</p>
+			<p>I am a student at Hacktiv8 Indonesia</p>
+			<p>At Hacktiv8, I study the fundamentals of programming <br>
+			which is an increasingly important skill in the developer world.</p>
+
+		</div>
+		<!--
+		<div class="whatDo">
+			<h2>What I Do</h2>
+			<p>I'm currently studying to be a web developer at Hacktiv8 Indonesia</p>
+		</div>
+		-->
+		<div class="center">
+			<h2>Contact</h2>
+			<a id="contact">
+			<div class="contact">
+				<div class="contacts">
+					<p>kennythesman@gmail.com</p>
+					<p>+6285891182335</p>
+				</div>
+				<div class="form">
+					<p>Kalau ada feedback bisa isi form ini..</p>
+					<form>
+						<input type="text" class="formName" name="Name" required placeholder="Name">
+						<input type="text" class="formEmail" name="Email" required placeholder="Email">
+						<br>
+						<input type="text" class="formSubject" name="Subject" required placeholder="Subject">
+						<br>
+						<textarea class="formMessage" name="Message" required placeholder="Message"></textarea>
+						<br>
+						<button type="submit" class="formSubmit">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
