@@ -2,6 +2,11 @@ html {
     background-color: aliceblue;
     font-family: "Quicksand", sans-serif;
     height: 800px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
 }
 
 h2 {
@@ -36,7 +41,8 @@ p {
 }
 
 .nav {
-    padding: auto 100px;
+    padding: 0 100px;
+    margin: 0;
 }
 
 .navList {
