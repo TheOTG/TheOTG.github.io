@@ -118,7 +118,7 @@ p {
     margin-bottom: 5px;
     min-height: 96px;
     max-height: 192px;
-    resize: vertical;
+    resize: none;
 }
 
 .formSubmit {
